@@ -1,0 +1,359 @@
+/* 	================= 
+		CHAPTER5.CSS
+	================= */
+
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+/* 	==============================================
+		BEGIN AUTHOR STYLING
+	============================================== */
+
+/** {
+	background-color: rgba(0,0,0,0.3);
+}*/
+
+
+/* 	=============================
+		TEXT STYLING
+	============================= */
+
+
+.history-title {
+	width: 50%;
+	color: blue;
+	line-height: 45px;
+}
+
+.history {
+	float: left;
+    width: 50%;
+    margin-bottom: 10px;
+    font-family: 'PT Serif Caption', serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.history2-title {
+	margin-left:10%;
+	width: 30%;
+	color: blue;
+	line-height: 45px;
+}
+
+.history2 {
+	float: left;
+	margin-left:10%; 
+    width: 30%;
+    margin-bottom: 10px;
+    font-family: 'PT Serif Caption', serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.history-quote {
+    width: 80%;
+    padding: 2%;
+    margin-left: 8%;
+    margin-bottom: 45px;
+    padding-bottom: 15px;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 34px;
+    text-align: center;
+    line-height: 46px;
+    color: #ffcaca;
+    border: 1px solid #ffcaca;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.poetry-title {
+	width: 80%;
+	margin-left: 10%;
+	color: blue;
+	line-height: 45px;
+}
+
+.poetry-sub {
+	font-style: italic;
+	text-align: center;
+	color: #ffcaca;
+}
+
+.poem-left,
+.poem-middle,
+.poem-right,
+.poem-left-half,
+.poem-right-half,
+.poem-half,
+.poem {
+	text-align: center;
+}
+
+.poem-left {
+	float: left;
+	margin-right: 2%;
+	width: 32%;
+}
+
+.poem-middle {
+	float: left;
+	width: 32%;
+}
+
+.poem-right {
+	float: right;
+	width: 32%;
+}
+
+.poem-left-half {
+	float: left;
+	margin-right: 2%;
+	width: 49%;
+
+}
+
+.poem-right-half {
+	float: right;
+	width: 49%;
+}
+
+.poem-half {
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+}
+
+.poem-title {
+	font-family: 'PT Serif Caption', serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffcaca;
+}
+
+.poem {
+	font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: blue;
+}
+
+.image-right p,
+.image-left p {
+	text-align: center;
+}
+
+
+
+/* 	=============================
+		IMG STYLING
+	============================= */
+
+.half-image {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.sched1 {
+	margin-top: 100px;
+	float: right;
+	width: 40%;
+}
+
+.sched2 {
+	margin-left: 20%;
+	margin-bottom: 80px;
+	width: 60%;
+}
+
+.sched3 {
+	margin-top: -80px;
+	float: right;
+	margin-right: 10%;
+	width: 40%;
+}
+
+.sched4 {
+	float: left;
+	margin-left: 0%;
+	margin-right: 0;
+	width: 40%;
+}
+
+.sched5 {
+	float: right;
+	width: 40%;
+}
+
+.image-left {
+	float: left;
+	margin-top: 100px;
+	width: 50%;
+	margin-left: 0;
+}
+
+.image-right {
+	float: right;
+	margin-top: 100px;
+	width: 50%;
+	margin-left: 0;
+}
+
+.human-rights{
+	width: 100%;
+}
+
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media (max-width: 1000px) { 
+
+	.history2-title {
+		margin-left:00%;
+		width: 50%;
+	}
+
+	.history2 {
+		margin-left:0%; 
+	    width: 50%;
+	}
+
+	.history-quote {
+	    margin-bottom: 25px;
+	}
+
+	.sched3 {
+		margin-top: -80px;
+		float: right;
+		margin-right: 0%;
+		width: 40%;
+	}
+
+}
+
+@media (max-width: 900px) { 
+	.history-title,
+	.history2-title,
+	.history,
+	.history2 {
+		width: 100%;
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.history-quote {
+	    margin-bottom: 25px;
+	}
+
+	.sched1,
+	.sched2,
+	.sched3,
+	.sched4,
+	.sched5 {
+		display: none;
+	}
+
+	.image-left,
+	.image-right {
+		margin-top: 0;
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.poetry-title {
+		width: 100%;
+		margin-left: 0%;
+	}
+
+
+	
+}
+
+@media (max-width: 750px) { 
+	
+	.history-quote {
+	    font-size: 24px;
+	    line-height: 36px;
+	}
+
+	
+}
+
+@media (max-width: 650px) { 
+	
+	.history-quote {
+		width: 100%;
+		margin-left: 0;
+		padding: 0;
+	    font-size: 24px;
+	    line-height: 36px;
+	    border: none;
+	}
+
+	.poem-left,
+	.poem-middle,
+	.poem-right,
+	.poem-left-half,
+	.poem-right-half,
+	.poem-half,
+	.poem,
+	.poem-title {
+		float: none;
+		margin: 0;
+		width: 100%;
+	}
+
+	.poem-title {
+		font-family: 'PT Serif Caption', serif;
+	    font-size: 22px;
+	    line-height: 30px;
+	    color: #ffcaca;
+	}
+
+	.poem {
+		font-family: 'PT Sans', sans-serif;
+	    font-size: 16px;
+	    line-height: 20px;
+	    color: blue;
+	}
+
+
+	.poem-top {
+		margin-top: -90px;
+	}
+
+	
+}
+
+@media (max-width: 500px) { 
+
+	.poem-title {
+		font-family: 'PT Serif Caption', serif;
+	    font-size: 18px;
+	    line-height: 28px;
+	}
+
+	.poem {
+		font-family: 'PT Sans', sans-serif;
+	    font-size: 12px;
+	    line-height: 16px;
+	}
+
+	.poem-top {
+		margin-top: -90px;
+	}
+
+	
+}
+
+
+

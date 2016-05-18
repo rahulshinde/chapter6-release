@@ -1,0 +1,510 @@
+/* 	================= 
+		MAIN.CSS
+	================= */
+
+/* 	==============================================
+		BEGIN AUTHOR STYLING
+	============================================== */
+
+/** {
+	background-color: rgba(0,0,0,0.3);
+}*/
+
+body {
+}
+
+.content-container {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 20px;
+
+}
+
+.web {
+	display: block;
+}
+
+
+.middle,
+.mobile {
+	display: none;
+}
+
+a:link,
+a:visited {
+	color: blue;
+}
+
+
+/* 	=============================
+		TYPOGRAPHY
+	============================= */
+.content-title {
+	/*margin-top: 130px;*/
+	margin-bottom: 30px;
+	font-family: 'PT Sans', sans-serif;
+	color: blue;
+	letter-spacing: 10px;
+	font-size: 160px;
+	text-align: center;
+	font-style: italic;
+
+	/*background: url('../img/background.jpg');
+	background-size: 55%;
+	background-position: center;
+	background-repeat: no-repeat;*/
+}
+
+.title-intro {
+	width: 66%;
+	margin-left: 17%;
+	font-family: 'PT Serif Caption', serif;
+text-align: left;
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: 400;
+	color: blue; 
+}
+
+
+.background {
+	margin-top: 60px;
+	padding-top: 100px;
+	margin-bottom: 0px;
+	width: 100%;
+
+	border-top: 1px solid blue;
+}
+
+.schedule-title {
+	width: 50%;
+	padding: 2%;
+	margin-top: 60px;
+	margin-left: 22.5%;
+	padding-bottom: 20px;
+	font-family: 'PT Serif Caption', serif;
+	font-size: 34px;
+	text-align: center;
+	line-height: 46px;
+	color:blue;
+
+	border: 1px solid blue;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.schedule {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 40px;
+}
+
+.sat {
+	float: left;
+	width: 45%;
+	margin-right: 10%;
+	padding-bottom: 100px;
+}
+
+.sun {
+	float: left;
+	width: 45%;
+	margin-right: 0;
+	padding-bottom: 100px;
+}
+
+.sat h1,
+.sun h1 {
+	color: blue;
+	font-size: 14px;
+}
+
+.line-under {
+	border-bottom: 1px solid #ffcaca;
+}
+
+.sun a:link,
+.sun a:visited {
+	color: blue;
+}
+
+.stars-promo {
+	margin-top: -20px;
+	margin-bottom: 70px;
+	float: left;
+	width: 100%;
+
+}
+
+.stars-promo h1,
+.stars-promo h2,
+.stars-promo p {
+	color: #ffcaca;
+	text-align: center;
+	/*text-shadow: 2px 2px 5px blue;*/
+}
+
+.stars-promo p {
+	font-size: 14px;
+}
+
+.text-container {
+	/* Box-model */
+	display: inline-block;
+	width: 96%;
+	padding: 20px 2%;
+	margin-bottom: 50px;
+	/* Typography */
+	font-size: 30px;
+	color:#ffcaca;
+	font-family: 'PT Sans', sans-serif;
+    text-align: justify;
+    font-size: 28px;
+    line-height: 37px;
+	/* Visual */
+	border: 1px solid #ffcaca;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	/* Misc */
+}
+
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media (max-width: 1050px) { 
+	.content-title {
+		width: 90%;
+		margin-left: 5%;
+		font-size: 100px;
+		letter-spacing: 5px;
+	}
+
+	.title-intro {
+		width: 80%;
+		margin-left: 10%;
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.stars-promo p {
+		font-size: 12px;
+	}
+
+	.stars-promo {
+		margin-bottom: 50px;
+
+	}
+
+}
+
+@media (max-width: 900px) { 
+	
+	.middle {
+		display: block;
+	}
+
+
+	.web,
+	.mobile {
+		display: none;
+	}
+
+	.schedule-title {
+		width: 56%;
+		margin-left: 20.5%;
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.stars-promo p {
+		font-size: 10px;
+		margin-bottom: 
+	}
+
+	.stars-promo {
+		/*margin-bottom: 45px;*/
+
+	}
+
+	.text-container {
+		/* Box-model */
+		margin-top: 0;
+		/* Typography */
+	    font-size: 24px;
+	    line-height: 33px;
+		/* Visual */
+		/* Misc */
+	}
+}
+
+@media (max-width: 750px) { 
+
+	.content-title {
+		width: 90%;
+		margin-left: 5%;
+		font-size: 75px;
+	}
+
+	.title-intro {
+		width: 80%;
+		margin-left: 10%;
+		font-size: 12px;
+		line-height: 19px;
+	}
+
+	.schedule-title {
+		width: 56%;
+		margin-left: 20.5%;
+		padding-top: 20px;
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.schedule {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.background {
+		padding-top: 50px;
+	}
+
+	.sat {
+		float: left;
+		width: 100%;
+		margin-bottom: 0px;
+		padding-bottom: 30px;
+	}
+
+	.sun {
+		float: left;
+		width: 100%;
+		margin-right: 0;
+		padding-bottom: 50px;
+	}
+
+	.line-under {
+		border-bottom: none;
+		padding-bottom: 30px;
+	}
+	
+	.stars-promo p {
+		font-size: 14px;
+		margin-bottom: 
+	}
+
+	.stars-promo {
+		/*margin-bottom: 45px;*/
+
+	}
+
+	.text-container {
+		/* Box-model */
+		margin-top: 0;
+		/* Typography */
+	    font-size: 24px;
+	    line-height: 33px;
+		/* Visual */
+		/* Misc */
+	}
+
+}
+
+@media (max-width: 575px) {
+
+	.title-text {
+		padding-top: 8px;
+	}
+
+	.mobile {
+		display: block;
+	}
+
+
+	.web,
+	.middle {
+		display: none;
+	}
+	
+
+	.content-title {
+		width: 90%;
+		margin-left: 5%;
+		font-size: 50px;
+		letter-spacing: 5px;
+	}
+
+	.title-intro {
+		width: 80%;
+		margin-left: 10%;
+		font-size: 12px;
+		line-height: 19px;
+	}
+
+	.schedule-title {
+		width: 56%;
+		margin-left: 20.5%;
+		padding-top: 20px;
+		font-size: 20px;
+		line-height: 32px;
+	}
+
+	.schedule {
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 40px;
+	}
+
+	.sat {
+		float: left;
+		width: 100%;
+		padding-bottom: 0px;
+	}
+
+	.sun {
+		float: left;
+		width: 100%;
+		margin-right: 0;
+		padding-bottom: 30px;
+	}
+
+	.sat h1,
+	.sun h1 {
+		font-size: 14px;
+	}
+
+	.sat p,
+	.sun p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.line-under {
+		border-bottom: none;
+		padding-bottom: 30px;
+	}
+	
+	.stars-promo p {
+		font-size: 12px; 
+		line-height: 17px;
+	}
+
+	.stars-promo {
+		margin-bottom: 35px;
+
+	}
+
+	.text-container {
+		/* Box-model */
+		margin-top: 0;
+		/* Typography */
+	    font-size: 24px;
+	    line-height: 33px;
+		/* Visual */
+		/* Misc */
+	}
+
+	.background {
+		margin-top: 40px;
+		padding-top: 40px;
+		margin-bottom: 0px;
+		width: 100%;
+
+		border-top: 1px solid blue;
+	}
+}
+
+@media (max-width: 500px) {
+	.content-title {
+		width: 90%;
+		margin-left: 5%;
+		font-size: 45px;
+		letter-spacing: 1px;
+	}
+
+	.title-intro {
+		width: 80%;
+		margin-left: 10%;
+		font-size: 12px;
+		line-height: 19px;
+		text-align: justify;
+	}
+
+	.schedule-title {
+		width: 70%;
+		margin-left: 14.5%;
+		padding: 1%;
+		font-size: 16px;
+		line-height: 32px;
+	}
+
+	.schedule {
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 40px;
+	}
+
+	.sat {
+		float: left;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.sun {
+		float: left;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.sat h1,
+	.sun h1 {
+		font-size: 14px;
+	}
+
+	.sat p,
+	.sun p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.line-under {
+		border-bottom: none;
+		padding-bottom: 30px;
+	}
+	
+	.stars-promo p {
+		font-size: 12px; 
+		line-height: 17px;
+	}
+
+	.stars-promo {
+		margin-bottom:0px;
+
+	}
+
+	.text-container {
+		/* Box-model */
+		margin-top: 0;
+		width: 90%;
+		margin-left:2.5%;
+		/* Typography */
+	    font-size: 18px;
+	    line-height: 24px;
+
+	    border: none;
+		/* Visual */
+		/* Misc */
+	}
+
+	.background {
+		margin-top: 30px;
+		padding-top: 30px;
+		margin-bottom: 0px;
+		width: 100%;
+
+		border-top: none;
+	}
+}

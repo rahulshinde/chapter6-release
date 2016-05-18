@@ -1,0 +1,205 @@
+/* 	================= 
+		CHAPTER3.CSS
+	================= */
+
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+/* 	==============================================
+		BEGIN AUTHOR STYLING
+	============================================== */
+
+/** {
+	background-color: rgba(0,0,0,0.3);
+}*/
+
+.lavender-container {
+	/* Box-model */
+	display: inline-block;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 30px;
+	/* Typography */
+	/* Visual */
+	/* Misc */
+}
+
+.border {
+	border: 1px solid #ffcaca;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+/* 	=============================
+		TEXT STYLING
+	============================= */
+
+h1 {
+	/*color: #ffcaca;*/
+}
+
+.lavender-point {
+	float: left;
+	width: 30%;
+	margin-top: 2px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: justify;
+	line-height: 36px;
+	color: #ffcaca;
+}
+
+.lavender-desc {
+	float: left;
+	width: 31%;
+	margin-bottom: 10px;
+	margin-left: 1%;
+	font-family: 'PT Serif Caption', serif;
+	text-align: left;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.poem {
+	margin-top: 20px;
+	text-shadow: 3px 3px 5px blue;
+	padding-bottom: 10px;
+}
+
+/* 	=============================
+		IMG STYLING
+	============================= */
+
+.quart-image {
+	width: 76%;
+	margin-left: 12%;
+}
+
+.lavender-youtube {
+	margin-right: 2%;
+	width: 25%;
+	margin-top: 21px;
+	height: auto;
+	float: right;
+	
+
+}
+
+.lavender-border {
+	border: 1px solid #ffe705;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+}
+
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media (max-width: 900px) { 
+
+	/*text styling*/
+	.lavender-point {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.lavender-desc {
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.poem {
+		text-shadow: 3px 3px 5px blue;
+	}
+}
+
+@media (max-width: 710px) { 
+
+	h1 {
+		/*color: #ffcaca;*/
+	}
+
+	.lavender-point {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		margin-top: 2px;
+		padding: 0;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: bold;
+		font-size: 30px;
+		text-align: justify;
+		line-height: 36px;
+		color: #ffcaca;
+	}
+
+	.lavender-desc {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-bottom: 30px;
+		font-family: 'PT Serif Caption', serif;
+		text-align: left;
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	/*img*/
+
+	.quart-image {
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 20px;
+	}
+
+	.lavender-youtube {
+		float: none;
+		width: 70%;
+		margin-left: 15%;
+		margin-top: 21px;
+		margin-bottom: 0px;
+		height: auto;
+		
+
+	}
+
+}
+
+@media (max-width: 650px) { 
+
+	.border {
+		border: none;
+		margin-bottom: 60px;
+	}
+
+
+}
+
+@media (max-width: 400px) { 
+
+	.lavender-point {
+		width: 90%;
+		margin-left: 5%;
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.lavender-desc {
+		width: 90%;
+		margin-left: 5%;
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+}
+
+
